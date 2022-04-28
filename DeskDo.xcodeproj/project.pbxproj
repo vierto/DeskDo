@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A001F46E281A2EF90097C8DA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001F46D281A2EF90097C8DA /* HistoryViewController.swift */; };
+		A001F47D281A47830097C8DA /* DetailDeskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001F47C281A47830097C8DA /* DetailDeskViewController.swift */; };
+		A001F47F281A4D700097C8DA /* DeskDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001F47E281A4D700097C8DA /* DeskDataModel.swift */; };
+		A010081C281AD0AD00612343 /* DeskDoItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010081A281AD0AD00612343 /* DeskDoItem+CoreDataClass.swift */; };
+		A010081D281AD0AD00612343 /* DeskDoItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010081B281AD0AD00612343 /* DeskDoItem+CoreDataProperties.swift */; };
 		A015E93028182BA000E49211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E92F28182BA000E49211 /* AppDelegate.swift */; };
 		A015E93228182BA000E49211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E93128182BA000E49211 /* SceneDelegate.swift */; };
 		A015E93428182BA000E49211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E93328182BA000E49211 /* ViewController.swift */; };
@@ -17,6 +22,10 @@
 		A015E94A28182BA100E49211 /* DeskDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E94928182BA100E49211 /* DeskDoTests.swift */; };
 		A015E95428182BA100E49211 /* DeskDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E95328182BA100E49211 /* DeskDoUITests.swift */; };
 		A015E95628182BA100E49211 /* DeskDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015E95528182BA100E49211 /* DeskDoUITestsLaunchTests.swift */; };
+		A0A133E128199B0E00B3FB14 /* YourDeskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A133DF28199B0E00B3FB14 /* YourDeskCell.swift */; };
+		A0A133E228199B0E00B3FB14 /* YourDeskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A133E028199B0E00B3FB14 /* YourDeskCell.xib */; };
+		A0A133E62819A15300B3FB14 /* NewDeskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A133E52819A15300B3FB14 /* NewDeskViewController.swift */; };
+		A0A133E82819A83B00B3FB14 /* DeskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A133E72819A83B00B3FB14 /* DeskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A001F46D281A2EF90097C8DA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A001F47C281A47830097C8DA /* DetailDeskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDeskViewController.swift; sourceTree = "<group>"; };
+		A001F47E281A4D700097C8DA /* DeskDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskDataModel.swift; sourceTree = "<group>"; };
+		A010081A281AD0AD00612343 /* DeskDoItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeskDoItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A010081B281AD0AD00612343 /* DeskDoItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeskDoItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A015E92C28182BA000E49211 /* DeskDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A015E92F28182BA000E49211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A015E93128182BA000E49211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +65,10 @@
 		A015E94F28182BA100E49211 /* DeskDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeskDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A015E95328182BA100E49211 /* DeskDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskDoUITests.swift; sourceTree = "<group>"; };
 		A015E95528182BA100E49211 /* DeskDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0A133DF28199B0E00B3FB14 /* YourDeskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDeskCell.swift; sourceTree = "<group>"; };
+		A0A133E028199B0E00B3FB14 /* YourDeskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourDeskCell.xib; sourceTree = "<group>"; };
+		A0A133E52819A15300B3FB14 /* NewDeskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeskViewController.swift; sourceTree = "<group>"; };
+		A0A133E72819A83B00B3FB14 /* DeskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +119,14 @@
 		A015E92E28182BA000E49211 /* DeskDo */ = {
 			isa = PBXGroup;
 			children = (
+				A0A133E92819A8F100B3FB14 /* Model */,
+				A0A133D22819625600B3FB14 /* DeskDoItem */,
 				A015E92F28182BA000E49211 /* AppDelegate.swift */,
 				A015E93128182BA000E49211 /* SceneDelegate.swift */,
-				A015E93328182BA000E49211 /* ViewController.swift */,
+				A001F46D281A2EF90097C8DA /* HistoryViewController.swift */,
+				A001F47C281A47830097C8DA /* DetailDeskViewController.swift */,
+				A0A133E52819A15300B3FB14 /* NewDeskViewController.swift */,
+				A0A133DE2819948E00B3FB14 /* HomePage */,
 				A015E93528182BA000E49211 /* Main.storyboard */,
 				A015E93B28182BA100E49211 /* Assets.xcassets */,
 				A015E93D28182BA100E49211 /* LaunchScreen.storyboard */,
@@ -128,6 +151,42 @@
 				A015E95528182BA100E49211 /* DeskDoUITestsLaunchTests.swift */,
 			);
 			path = DeskDoUITests;
+			sourceTree = "<group>";
+		};
+		A0A133D22819625600B3FB14 /* DeskDoItem */ = {
+			isa = PBXGroup;
+			children = (
+				A010081A281AD0AD00612343 /* DeskDoItem+CoreDataClass.swift */,
+				A010081B281AD0AD00612343 /* DeskDoItem+CoreDataProperties.swift */,
+			);
+			path = DeskDoItem;
+			sourceTree = "<group>";
+		};
+		A0A133DD2819947D00B3FB14 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0A133DF28199B0E00B3FB14 /* YourDeskCell.swift */,
+				A0A133E028199B0E00B3FB14 /* YourDeskCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0A133DE2819948E00B3FB14 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A015E93328182BA000E49211 /* ViewController.swift */,
+				A0A133DD2819947D00B3FB14 /* Cell */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A0A133E92819A8F100B3FB14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0A133E72819A83B00B3FB14 /* DeskModel.swift */,
+				A001F47E281A4D700097C8DA /* DeskDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +296,7 @@
 				A015E93F28182BA100E49211 /* LaunchScreen.storyboard in Resources */,
 				A015E93C28182BA100E49211 /* Assets.xcassets in Resources */,
 				A015E93728182BA000E49211 /* Main.storyboard in Resources */,
+				A0A133E228199B0E00B3FB14 /* YourDeskCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A001F47F281A4D700097C8DA /* DeskDataModel.swift in Sources */,
+				A010081C281AD0AD00612343 /* DeskDoItem+CoreDataClass.swift in Sources */,
+				A0A133E82819A83B00B3FB14 /* DeskModel.swift in Sources */,
+				A001F46E281A2EF90097C8DA /* HistoryViewController.swift in Sources */,
+				A010081D281AD0AD00612343 /* DeskDoItem+CoreDataProperties.swift in Sources */,
 				A015E93428182BA000E49211 /* ViewController.swift in Sources */,
 				A015E93A28182BA000E49211 /* DeskDo.xcdatamodeld in Sources */,
+				A0A133E128199B0E00B3FB14 /* YourDeskCell.swift in Sources */,
+				A001F47D281A47830097C8DA /* DetailDeskViewController.swift in Sources */,
 				A015E93028182BA000E49211 /* AppDelegate.swift in Sources */,
+				A0A133E62819A15300B3FB14 /* NewDeskViewController.swift in Sources */,
 				A015E93228182BA000E49211 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
