@@ -61,6 +61,7 @@
                     <connections>
                         <outlet property="addNewDeskBtn" destination="8Bf-I3-kbM" id="d9P-zz-gxf"/>
                         <outlet property="tableView" destination="DXh-wi-d3H" id="hFl-wB-wOl"/>
+                        <segue destination="Hk9-I8-fo6" kind="show" identifier="homeToDetail" id="7mp-rS-ovg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -336,6 +337,9 @@
             <point key="canvasLocation" x="950.76923076923072" y="466.35071090047393"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nS6-N3-tBW"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="pencil.circle" catalog="system" width="128" height="121"/>
